@@ -56,7 +56,7 @@ h2{
 }
 
 .about-container{
-background: url(bg.jpg) no-repeat center center fixed;
+background: image-url('bg.jpg') no-repeat center center fixed ;
 height: 500px;
 
 }
