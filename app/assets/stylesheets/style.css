@@ -17,15 +17,16 @@
 }
 
 
-h2{
+/*h2{
 	color: white;
 	font-size: 18px;
 	margin-top: 0;
 }
+*/
 
 .bio {
 
-	color: white;
+	color: black;
 	font-size: 14px;
 
 
@@ -149,7 +150,7 @@ h4 {
   text-decoration: none;
 }
 
-li {
+.homeli{
   display: inline-block;
   font-size: 12px;
   width: 100px;
