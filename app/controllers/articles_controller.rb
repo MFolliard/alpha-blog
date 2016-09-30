@@ -16,7 +16,7 @@ end
 def update
  
     if @article.update(article_params)
-      flash[:success] = "Article was successfully updated"
+            flash[:success] = "Article was successfully updated"
       redirect_to article_path(@article)
     else
       render 'edit'
@@ -27,6 +27,7 @@ end
 def create
   #render plain: params[:article].inspect
     @article = Article.new(article_params)
+    @article.user = User.first
   #@article.save
   #redirect_to article_path(@article)
   if @article.save
